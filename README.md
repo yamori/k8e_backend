@@ -7,10 +7,10 @@ All resources are defined in `index.js`, and json files (meant for public access
 Developed with:
 
 ```
-k8e_bend $ npm --version 
-7.0.15
-k8e_bend $ node --version
-v15.4.0
+k8e_bend]$ npm --version
+8.11.0
+k8e_bend]$ node --version
+v16.15.1
 ```
 
 ## Production
