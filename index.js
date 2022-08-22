@@ -4,9 +4,11 @@ const express = require("express");
 const app = express();
 const cors = require('cors');
 
-app.listen(process.env.PORT,
+var runTimePort = process.env.PORT || 3000;
+
+app.listen(runTimePort,
    function () {
-      console.log(`Server Start at the Port ${process.env.PORT}`);
+      console.log(`Server Start at the Port ${runTimePort}`);
       app.emit("appStarted");
    }
 );
